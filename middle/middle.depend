@@ -1,10 +1,14 @@
 # depslib dependency file v1.0
-1663589712 source:c:\users\sch1561-it-28\desktop\123\middle\middle 1-5.cpp
+1666543702 source:c:\users\Александр\onedrive\Рабочий стол\middle\function_1.cpp
 	"middle.h"
 
-1663589665 c:\users\sch1561-it-28\desktop\123\middle\middle.h
+1666542028 c:\users\Александр\onedrive\Рабочий стол\middle\middle.h
 	<iostream>
 
-1663589650 source:c:\users\sch1561-it-28\desktop\123\middle\main.cpp
+1666543702 source:c:\users\Александр\onedrive\Рабочий стол\middle\main.cpp
+	<iostream>
+	"middle.h"
+
+1666543794 source:c:\users\Александр\onedrive\Рабочий стол\middle\function_2.cpp
 	"middle.h"
 

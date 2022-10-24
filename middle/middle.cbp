@@ -32,8 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="function_1.cpp" />
+		<Unit filename="function_2.cpp" />
 		<Unit filename="main.cpp" />
-		<Unit filename="middle 1-5.cpp" />
 		<Unit filename="middle.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
