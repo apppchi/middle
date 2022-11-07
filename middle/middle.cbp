@@ -34,7 +34,8 @@
 		</Compiler>
 		<Unit filename="function_1.cpp" />
 		<Unit filename="function_2.cpp" />
-		<Unit filename="main.cpp" />
+		<Unit filename="function_3.cpp" />
+		<Unit filename="function_4.cpp" />
 		<Unit filename="middle.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
