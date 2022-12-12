@@ -37,8 +37,6 @@
 		<Unit filename="function_3.cpp" />
 		<Unit filename="function_4.cpp" />
 		<Unit filename="middle.h" />
-		<Extensions>
-			<lib_finder disable_auto="1" />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

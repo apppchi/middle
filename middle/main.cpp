@@ -1,10 +1,11 @@
+#include <iostream>
 #include "middle.h"
 
 using namespace std;
 
 int main()
 {
-    long long a;
+    int a;
     cin >> a;
-    cout << itc_min_num(a);
+    cout << itc_rev_oct_num(a);
 }

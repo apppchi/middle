@@ -1,4 +1,5 @@
 #include "middle.h"
+
 void itc_num_print(int number){
     cout << number;
 }
@@ -17,8 +18,7 @@ int itc_len_num(long long number){
 int itc_sum_num(long long number){
     if (number < 0)
         number = number * -1;
-    int c;
-    c = 0;
+    int c = 0;
     while (number > 0){
         c = c + number % 10;
         number = number / 10;
@@ -31,8 +31,7 @@ long long itc_multi_num(long long number){
         number = number * -1;
     if (number == 0)
         return 0;
-    int c;
-    c = 1;
+    int c = 1;
     while (number > 0){
         c = c * (number % 10);
         number = number / 10;

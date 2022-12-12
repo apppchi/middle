@@ -1,9 +1,8 @@
 #include "middle.h"
 
 int itc_min_num(long long number){
-    int c;
+    int c = 0;
     int min1 = 10;
-    c = 0;
     if (number == 0)
         return 0;
     if (number < 0)
@@ -12,7 +11,7 @@ int itc_min_num(long long number){
         c = number % 10;
         if (c < min1)
             min1 = c;
-	    number = number/10;
+	    number = number / 10;
     }
 	return min1;
 }
@@ -25,7 +24,6 @@ int itc_rev_num(long long number) {
         c = c * 10 + number % 10;
         number = number / 10;
     }
-    c = itc_len_num(c);
     return c;
 }
 
@@ -46,15 +44,10 @@ int itc_null_count(long long number){
  }
 
 bool itc_mirror_num(long long number) {
-    int c = 0;
-    int b = number;
     if (number < 0)
         number = number * -1;
-    while (number > 0) {
-        c = c * 10 + number % 10;
-        number = number / 10;
-    }
-    if (b == c)
+    int a = itc_rev_num(number);
+    if (a == number)
         return 1;
     return 0;
 }
@@ -63,7 +56,7 @@ int itc_mirror_count(long long number){
     int a = 0;
     if (number < 0)
         number = number * -1;
-    for (int i = 0; i < number; i++)
+    for (int i = 1; i <= number; i++)
         if (itc_mirror_num(i) == 1)
             a++;
     return a;
